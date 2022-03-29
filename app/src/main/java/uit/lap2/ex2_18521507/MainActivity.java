@@ -35,10 +35,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    public boolean onContextItemSelected(@NonNull MenuItem item) {
+        Toast.makeText(MainActivity.this, item.getTitle(), Toast.LENGTH_SHORT).show();
+        return true;
+    }
+
+    @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         MenuInflater image = getMenuInflater();
         image.inflate(R.menu.menu_context,menu);
     }
+
+
 
 
 }
