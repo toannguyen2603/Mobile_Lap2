@@ -1,4 +1,4 @@
-package uit.lap2.ex2_18521507;
+package uit.lap2.ex2_18520526;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,20 +11,20 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
+
 public class MainActivity extends AppCompatActivity {
-    ImageView image;
+    ImageView im;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        image = findViewById(R.id.imageView);
-        registerForContextMenu(image);
+        im = findViewById(R.id.imageView);
+        registerForContextMenu(im);
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater image = getMenuInflater();
-        image.inflate(R.menu.menu_option,menu);
+        MenuInflater im = getMenuInflater();
+        im.inflate(R.menu.menu_option,menu);
         return true;
     }
 
@@ -45,8 +45,4 @@ public class MainActivity extends AppCompatActivity {
         MenuInflater image = getMenuInflater();
         image.inflate(R.menu.menu_context,menu);
     }
-
-
-
-
 }
