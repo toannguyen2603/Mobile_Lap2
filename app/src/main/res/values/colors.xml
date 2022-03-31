@@ -7,4 +7,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blue">#03A9F4</color>
+    <color name="red">#F40404</color>
+    <color name="yellow">#F2DA09</color>
+    <color name="green">#2FD236</color>
+    <color name="orange">#F55B2A</color>
+    <color name="gray">#585757</color>
+
+<!-- Color function button calculator -->
+    <color name="buttonFuncDark">#2D2D2D</color>
+    <color name="buttonFuncLight">#CCC7C7</color>
+
+
 </resources>

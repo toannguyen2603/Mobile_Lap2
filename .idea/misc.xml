@@ -3,10 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="app/src/main/res/drawable/background_ic_background.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/custom_button_background.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/custom_button_func.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/custom_edit_text.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/custom_image_background.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/cutom_button_number.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/edit_ic_backgroud.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/ic_baseline_autorenew_24.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/ic_baseline_save_alt_24.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/ic_new24.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/ic_round_insert_drive_file_24.xml" value="0.1785" />
+        <entry key="app/src/main/res/layout/activity_calculator.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/activity_change_color.xml" value="0.32221221923828125" />
+        <entry key="app/src/main/res/layout/activity_contact_info.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/activity_finish_get_contact_info.xml" value="0.2809051513671875" />
+        <entry key="app/src/main/res/layout/activity_intent_filter.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_menu_option.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/button_calculator.xml" value="0.2557291666666667" />
         <entry key="app/src/main/res/menu/menu_context.xml" value="0.2557291666666667" />
-        <entry key="app/src/main/res/menu/menu_option.xml" value="0.2557291666666667" />
-        <entry key="app/src/main/res/menu/menu_sub.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/menu_option.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/menu_sub.xml" value="0.1" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/background_ic.xml" value="0.1255" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1255" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1255" />

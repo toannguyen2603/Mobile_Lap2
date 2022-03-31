@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/main_ot_file"
-        android:title="File"
+        android:title="@string/file"
         >
         <menu>
             <item android:id="@+id/child_new"
-                android:title="New"/>
+                android:title="@string/ot_new"
+                android:icon="@drawable/ic_new24"
+                />
             <item android:id="@+id/child_save"
-                android:title="Save"/>
+                android:title="@string/save"
+                android:icon="@drawable/ic_baseline_save_alt_24"
+                />
             <item android:id="@+id/child_load"
-                android:title="Load"/>
+                android:title="@string/load"
+                android:icon="@drawable/ic_baseline_autorenew_24"
+                />
             <item android:id="@+id/child_edit"
-                android:title="Edit"/>
+                android:title="@string/edit"
+                android:icon="@drawable/edit_ic_backgroud"
+                />
         </menu>
     </item>
-    <item android:id="@+id/main_ot_edit" android:title="Edit"/>
-    <item android:id="@+id/main_ot_view" android:title="View"/>
-    <item android:id="@+id/main_ot_tool" android:title="Tool"/>
+    <item android:id="@+id/main_ot_edit"
+        android:title="@string/edit"
+        />
+    <item android:id="@+id/main_ot_view"
+        android:title="@string/view"
+        />
+    <item android:id="@+id/main_ot_tool"
+        android:title="@string/tool"
+        />
 </menu>

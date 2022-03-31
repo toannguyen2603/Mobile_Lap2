@@ -1,23 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:background="@drawable/moutain"
+    tools:context="uit.lap2.ex2_18521507.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btnMenu"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Code is here" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:background="@drawable/view" />
-
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="100sp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/custom_button_background"
+        android:backgroundTint="@color/orange"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Menu Option"/>
+    <Button
+        android:id="@+id/btnColor"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="100sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button_background"
+        android:backgroundTint="@color/blue"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Change Color"/>
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="100sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button_background"
+        android:backgroundTint="@color/green"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Calculator"/>
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="100sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button_background"
+        android:backgroundTint="@color/red"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Contact Info"/>
+    <Button
+        android:id="@+id/btnIntent"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="100sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button_background"
+        android:backgroundTint="@color/yellow"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Intent-filter"/>
 </LinearLayout>
