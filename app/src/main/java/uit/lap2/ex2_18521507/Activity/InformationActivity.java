@@ -1,4 +1,4 @@
-package uit.lap2.ex2_18521507;
+package uit.lap2.ex2_18521507.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.widget.EditText;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import uit.lap2.ex2_18521507.R;
 
 public class InformationActivity extends AppCompatActivity {
     EditText edit_email, edit_name, edit_project;

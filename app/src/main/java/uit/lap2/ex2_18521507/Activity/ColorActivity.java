@@ -1,4 +1,4 @@
-package uit.lap2.ex2_18521507;
+package uit.lap2.ex2_18521507.Activity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Objects;
+
+import uit.lap2.ex2_18521507.R;
 
 public class ColorActivity extends AppCompatActivity {
     RadioButton radio_red, radio_green, radio_blue, radio_gray;

@@ -1,18 +1,15 @@
-package uit.lap2.ex2_18521507;
+package uit.lap2.ex2_18521507.Activity;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.ContextMenu;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
+
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.Toast;
+
+import uit.lap2.ex2_18521507.R;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void RedirectToIntent() {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, IntentActivity.class);
+        startActivity(intent);
     }
 
     private void RedirectToContactInfo() {

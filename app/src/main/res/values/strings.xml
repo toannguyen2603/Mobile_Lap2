@@ -11,5 +11,8 @@
     <string name="ot_new">New</string>
     <string name="Contact_info">View Contact Information</string>
     <string name="Contact_finish">Finish</string>
+    <string name="call_page">Call Phone</string>
+    <string name="internet_page">Internet</string>
+    <string name="web_page">Google</string>
 
 </resources>

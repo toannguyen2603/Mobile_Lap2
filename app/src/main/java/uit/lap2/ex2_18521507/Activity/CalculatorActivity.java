@@ -1,4 +1,4 @@
-package uit.lap2.ex2_18521507;
+package uit.lap2.ex2_18521507.Activity;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import uit.lap2.ex2_18521507.R;
 
 public class CalculatorActivity extends AppCompatActivity {
     TextView InputText, OutputResult;

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/moutain"
-    tools:context="uit.lap2.ex2_18521507.MainActivity">
+    tools:context="uit.lap2.ex2_18521507.Activity.MainActivity">
 
     <Button
         android:id="@+id/btnMenu"

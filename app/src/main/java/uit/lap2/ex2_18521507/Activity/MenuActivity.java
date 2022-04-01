@@ -1,4 +1,4 @@
-package uit.lap2.ex2_18521507;
+package uit.lap2.ex2_18521507.Activity;
 
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -15,6 +15,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+
+import uit.lap2.ex2_18521507.R;
 
 public class MenuActivity extends AppCompatActivity {
     @Override

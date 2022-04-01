@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ex2_18521507">
-        <activity android:name=".MenuActivity" android:exported="false"/>
-        <activity android:name=".ColorActivity" android:exported="false"/>
-        <activity android:name=".CalculatorActivity" android:exported="false"/>
-        <activity android:name=".InformationActivity" android:exported="false"/>
-        <activity android:name=".ViewContactInfoActivity" android:exported="false"/>
-
+        <activity android:name=".Activity.MenuActivity" android:exported="false"/>
+        <activity android:name=".Activity.ColorActivity" android:exported="false"/>
+        <activity android:name=".Activity.CalculatorActivity" android:exported="false"/>
+        <activity android:name=".Activity.InformationActivity" android:exported="false"/>
+        <activity android:name=".Activity.ViewContactInfoActivity" android:exported="false"/>
+        <activity android:name=".Activity.IntentActivity" android:exported="false"/>
         <activity
-            android:name="uit.lap2.ex2_18521507.MainActivity"
+            android:name="uit.lap2.ex2_18521507.Activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
