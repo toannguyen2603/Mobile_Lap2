@@ -42,10 +42,12 @@ public class FragmentCallPhone extends Fragment {
             startActivity(intent);
         });
 
+//        intent google maps
         btn_send.setOnClickListener((View view) -> {
-            Intent callIntent = new Intent(Intent.ACTION_DIAL);
-            callIntent.setData(Uri.parse("tel:" + "8802177690"));//change the number
-            startActivity(callIntent);
+            String url = "https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+%C4%90%E1%BA%A1i+h%E1%BB%8Dc+C%C3%B4ng+ngh%E1%BB%87+Th%C3%B4ng+tin+-+%C4%90HQG+TP.HCM/@10.8700089,106.8008654,17z/data=!3m1!4b1!4m5!3m4!1s0x317527587e9ad5bf:0xafa66f9c8be3c91!8m2!3d10.8700089!4d106.8030541?hl=vi-VN";
+            Intent intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(url));
+            startActivity(intent);
         });
         return view;
 

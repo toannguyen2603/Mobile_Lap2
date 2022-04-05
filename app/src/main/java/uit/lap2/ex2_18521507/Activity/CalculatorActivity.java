@@ -14,7 +14,6 @@ public class CalculatorActivity extends AppCompatActivity {
     TextView InputText, OutputResult;
     Button b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, btnMinus, btnPercent, btnDivisor, btnMultiple, btnPlus, btnDot;
     Button btnAc, btnEqual;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +22,6 @@ public class CalculatorActivity extends AppCompatActivity {
         getEvent();
         statusBarColor();
     }
-
     public void getLayout() {
         b0 = findViewById(R.id.btn_Zero);
         b1 = findViewById(R.id.btn_One);
@@ -43,8 +41,6 @@ public class CalculatorActivity extends AppCompatActivity {
         btnAc =findViewById(R.id.btn_Clear);
         btnEqual =findViewById(R.id.btn_Equal);
         btnPercent = findViewById(R.id.btn_Percent);
-
-//        Get ID text view output
         InputText = findViewById(R.id.textInput);
         OutputResult = findViewById(R.id.textResult);
     }
@@ -53,7 +49,6 @@ public class CalculatorActivity extends AppCompatActivity {
     public void getTextInput(Button x ,String n) {
         x.setOnClickListener((View view) -> InputText.setText(InputText.getText() + n));
     }
-
     //    get listener
     public  void getEvent(){
 
@@ -82,12 +77,10 @@ public class CalculatorActivity extends AppCompatActivity {
             }
         });
 
-
         btnAc.setOnClickListener((View view) -> {
             InputText.setText("");
             OutputResult.setText("0");
         });
-
 
         btnEqual.setOnClickListener((View view) -> {
             String val = InputText.getText().toString();
@@ -119,14 +112,12 @@ public class CalculatorActivity extends AppCompatActivity {
                 }
                 return false;
             }
-
             double parse() {
                 nextChar();
                 double x = parseExpression();
                 if (pos < str.length()) throw new RuntimeException("Unexpected: " + (char)ch);
                 return x;
             }
-
             double parseExpression() {
                 double x = parseTerm();
                 for (;;) {
@@ -135,7 +126,6 @@ public class CalculatorActivity extends AppCompatActivity {
                     else return x;
                 }
             }
-
             double parseTerm() {
                 double x = parseFactor();
                 for (;;) {

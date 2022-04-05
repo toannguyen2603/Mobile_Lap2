@@ -1,6 +1,7 @@
 package uit.lap2.ex2_18521507.Fragment;
 
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,28 +20,25 @@ import uit.lap2.ex2_18521507.R;
 public class FragmentWebView extends Fragment {
     View view;
     private EditText addressBar;
-
     private WebView webView;
-    private Button buttonGo;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_web_view, container, false);
-        buttonGo =view.findViewById(R.id.button_go);
+        Button buttonGo = view.findViewById(R.id.button_go);
 
         addressBar =view.findViewById(R.id.editText_addressBar);
         webView = view.findViewById(R.id.webView);
 
-
-        // Tùy biến WebViewClient để điều khiển các sự kiện trên WebView
+//       Customize WebViewClient to control the events in WebView
         webView.setWebViewClient(new WebViewClient(addressBar));
 
-        buttonGo.setOnClickListener((View view) -> {
-            goUrl();
-        });
+        buttonGo.setOnClickListener((View view) -> goUrl());
         return view;
     }
 
+    @SuppressLint("SetJavaScriptEnabled")
     private void goUrl()  {
         String url = addressBar.getText().toString().trim();
         if(url.isEmpty())  {

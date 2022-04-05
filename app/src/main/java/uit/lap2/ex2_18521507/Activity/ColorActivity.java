@@ -2,15 +2,12 @@ package uit.lap2.ex2_18521507.Activity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.RadioButton;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.Objects;
-
 import uit.lap2.ex2_18521507.R;
 
 public class ColorActivity extends AppCompatActivity {

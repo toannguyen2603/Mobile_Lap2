@@ -4,12 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-
 import android.view.View;
 import android.widget.Button;
-
 import uit.lap2.ex2_18521507.R;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,19 +31,16 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(MainActivity.this, IntentActivity.class);
         startActivity(intent);
     }
-
     private void RedirectToContactInfo() {
         Intent intent = new Intent();
         intent.setClass(MainActivity.this, InformationActivity.class);
         startActivity(intent);
     }
-
     private void RedirectToCalculator() {
         Intent intent = new Intent();
         intent.setClass(MainActivity.this, CalculatorActivity.class);
         startActivity(intent);
     }
-
     private void RedirectToChangeColor() {
         Intent intent = new Intent();
         intent.setClass(MainActivity.this, ColorActivity.class);
@@ -57,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(MainActivity.this, MenuActivity.class);
         startActivity(intent);
     }
-
     private void getID(){
         btnMenu = findViewById(R.id.btnMenu);
         btnColor = findViewById(R.id.btnColor);
@@ -65,9 +58,5 @@ public class MainActivity extends AppCompatActivity {
         btnInfo = findViewById(R.id.btnContact);
         btnIntent = findViewById(R.id.btnIntent);
     }
-
-
-
-
 
 }

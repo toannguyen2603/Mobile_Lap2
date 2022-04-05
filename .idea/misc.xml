@@ -24,9 +24,9 @@
         <entry key="app/src/main/res/layout/activity_calculator.xml" value="0.2557291666666667" />
         <entry key="app/src/main/res/layout/activity_change_color.xml" value="0.32221221923828125" />
         <entry key="app/src/main/res/layout/activity_contact_info.xml" value="0.2557291666666667" />
-        <entry key="app/src/main/res/layout/activity_finish_get_contact_info.xml" value="0.2809051513671875" />
+        <entry key="app/src/main/res/layout/activity_finish_get_contact_info.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_intent_filter.xml" value="0.2557291666666667" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_menu_option.xml" value="0.2557291666666667" />
         <entry key="app/src/main/res/layout/button_calculator.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_call_phone.xml" value="0.2557291666666667" />
