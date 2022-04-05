@@ -2,6 +2,7 @@ package uit.lap2.ex2_18521507.Activity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.RadioButton;
 
@@ -15,6 +16,7 @@ import uit.lap2.ex2_18521507.R;
 public class ColorActivity extends AppCompatActivity {
     RadioButton radio_red, radio_green, radio_blue, radio_gray;
     View view_color;
+
     @SuppressLint("ResourceAsColor")
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

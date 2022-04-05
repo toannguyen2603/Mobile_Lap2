@@ -37,7 +37,6 @@ public class IntentActivity extends AppCompatActivity {
 
     @SuppressLint("NonConstantResourceId")
     private final NavigationBarView.OnItemSelectedListener onItemSelectedListener = (item -> {
-        Log.d("AAA", "Check select navigation");
         int id = item.getItemId();
         Fragment selectedFragment =  null;
         switch (id) {
