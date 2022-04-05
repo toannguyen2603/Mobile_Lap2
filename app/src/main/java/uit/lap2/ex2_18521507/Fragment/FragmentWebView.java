@@ -16,7 +16,7 @@ public class FragmentWebView extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_call_phone, container, false);
+        view = inflater.inflate(R.layout.fragment_web_view, container, false);
         return view;
     }
 }
